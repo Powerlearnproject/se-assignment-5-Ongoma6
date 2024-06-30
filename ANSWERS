@@ -1,0 +1,139 @@
+### How To Install Visual Studio Code On Windows 11
+
+Introduction
+In this article, I will explain how we can install and configure Visual Studio Code on Windows 11.
+
+Visual Studio Code
+Visual Studio Code is a source code editor that supports Java, JavaScript, Go, Node.js, Python, and C++, among other programming languages. It's built on the Electron framework, which is used to create Node.js Web apps that leverage the Blink layout engine. The same editor component (codenamed "Monaco") that is used in Azure DevOps is utilized in Visual Studio Code (formerly called Visual Studio Online and Visual Studio Team Services).
+
+Rather than having a project system, it allows users to open one or more folders, which may subsequently be stored as workspaces for later use. As a result, it may be used as a language-independent code editor for any language. It supports a variety of programming languages, each with its own set of capabilities. The parameters can be used to exclude unwanted files and directories from the project tree.
+
+
+### Installing VS Code
+
+1. Visit https://code.visualstudio.com/download and download the version specific to your 
+
+ ![alt text](image-2.png)
+
+2. Download process will start.
+
+  ![alt text](image-3.png)
+
+3. Once the download is complete. Open the file and accept the agreement.
+
+ ![alt text](image-4.png)
+
+ 4. Select the drive location where you need to install the VS Code.
+
+  ![alt text](image-5.png)
+
+5. Select the folder name for the VS Code setup files.
+
+  ![alt text](image-6.png)
+
+6. Select the additional task, you want to do by the installer. I wanted to have "Open with Code" added to both the File and Directory content menu, hence I selected those.
+
+   ![alt text](image-7.png)
+
+7. Check if all the settings. Click on "< Back" if you need to change anything.
+
+   ![alt text](image-8.png)
+
+8. Click on "Install", and the installation process will start.
+
+![alt text](image-9.png)
+
+9. After installation, click "Finish"
+
+  ![alt text](image-10.png)
+
+Step 10: After the previous step, the Visual Studio Code window opens successfully. Now you can create a new file in the Visual Studio Code window and choose a language of yours to begin yOUR CODING 
+![alt text](image-12.png)
+
+
+
+
+## First-time Setup
+
+After installing VS Code, you can configure the following settings for an optimal coding environment:
+
+1. **Theme and Appearance**: Go to `File > Preferences > Color Theme` and select a theme that suits your preference. You can also adjust the font size, font family, and other appearance settings.
+2. **Workspace Settings**: If you're working on a specific project, you can create a workspace by opening the project folder and then going to `File > Save Workspace As...`. This allows you to save your workspace settings, such as extensions, keybindings, and more.
+3. **Extensions**: Browse the VS Code Marketplace and install extensions that are relevant to your programming language and workflow. Some essential extensions for web development include Live Server, Prettier, and ESLint.
+4. **Keybindings**: Customize the keyboard shortcuts by going to `File > Preferences > Keyboard Shortcuts`. You can either modify the default keybindings or create your own.
+5. **Terminal Integration**: If you prefer to use the integrated terminal in VS Code, you can set your default shell by going to `Terminal > Select Default Shell`.
+
+## User Interface Overview
+
+The main components of the VS Code user interface are:
+
+1. **Activity Bar**: Located on the left side, the Activity Bar provides access to different views and functionality, such as the Explorer, Search, Source Control, and Extensions.
+2. **Side Bar**: The Side Bar, located to the left of the Editor Group, displays different panels based on the active view in the Activity Bar.
+3. **Editor Group**: The central area of the VS Code window, where you can open and edit your files.
+4. **Status Bar**: The Status Bar, located at the bottom of the window, displays information about the current file, programming language, and other useful details.
+
+## Command Palette
+
+The Command Palette in VS Code is a powerful tool that allows you to access a wide range of commands and actions. To open the Command Palette, press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS). From the Command Palette, you can perform tasks such as:
+
+- Searching and running any available command
+- Changing the current theme or file icon theme
+- Configuring user settings
+- Launching the debugger
+- Accessing source control functions
+- Installing and managing extensions
+
+## Extensions in VS Code
+
+Extensions in VS Code provide additional functionality and customization options. To find and install extensions, follow these steps:
+
+1. Click on the Extensions icon in the Activity Bar (it looks like four squares).
+2. In the Extensions view, you can search for and browse available extensions.
+3. To install an extension, click on the "Install" button next to the extension you want to install.
+4. Once installed, the extension will be available for use in your VS Code environment.
+
+Some essential extensions for web development include Live Server, Prettier, ESLint, and the JavaScript and TypeScript Language Features extension.
+
+## Integrated Terminal
+
+To open the integrated terminal in VS Code, press `Ctrl+\`` (or `Cmd+\`` on macOS) or click on the Terminal icon in the Activity Bar. The integrated terminal allows you to run shell commands directly within the VS Code window, without the need for an external terminal application. Some advantages of using the integrated terminal include:
+
+- Seamless integration with your coding environment
+- Ability to quickly access the terminal from within VS Code
+- Easier navigation and switching between the editor and terminal
+- Consistent look and feel with the rest of the VS Code interface
+
+## File and Folder Management
+
+To create, open, and manage files and folders in VS Code:
+
+1. In the Explorer view (the default view in the Side Bar), you can create new files and folders using the "New File" and "New Folder" buttons.
+2. To open a file, you can either double-click on it in the Explorer view or use the `Ctrl+O` (or `Cmd+O` on macOS) shortcut to open a file from the file system.
+3. To navigate between open files, you can use the `Ctrl+Tab` (or `Cmd+Tab` on macOS) shortcut to cycle through the open editor tabs.
+4. You can also use the `Ctrl+P` (or `Cmd+P` on macOS) shortcut to quickly open a file by typing its name.
+
+## Settings and Preferences
+
+To access and customize settings in VS Code:
+
+1. Go to `File > Preferences > Settings` (or `Code > Preferences > Settings` on macOS).
+2. In the Settings editor, you can search for and modify various settings, such as the editor theme, font size, and keybindings.
+3. You can also click on the "Edit in settings.json" button to directly edit the `settings.json` file, which allows for more advanced customizations.
+
+## Debugging in VS Code
+
+To set up and start debugging in VS Code:
+
+1. Install the appropriate debug extension for your programming language (e.g., the C/C++ extension for C/C++ debugging).
+2. Create a `launch.json` file by going to `Run > Open launch.json`.
+3. Configure the launch settings in the `launch.json` file to match your project and debugging requirements.
+4. Press `F5` (or go to `Run > Start Debugging`) to start the debugging process.
+
+VS Code provides a rich set of debugging features, including breakpoints, step-through execution, variable inspection, and more
+
+Citations:
+[1] https://code.visualstudio.com/download
+[2] https://code.visualstudio.com/docs/setup/windows
+[3] https://www.youtube.com/watch?v=cu_ykIfBprI
+[4] https://www.c-sharpcorner.com/article/how-to-install-visual-studio-code-on-windows-11/
+[5] https://www.geeksforgeeks.org/how-to-install-visual-studio-code-on-windows/
